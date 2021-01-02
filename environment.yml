@@ -10,5 +10,4 @@ dependencies:
   - statsmodels
   - seaborn
   - scikit-learn
-prefix: C:\Games\Anaconda\envs\kaggle
 
