@@ -1,0 +1,69 @@
+Data cleaning
+  - take only numerical data:
+      '1stFlrSF',
+      '2ndFlrSF',
+      '3SsnPorch',
+      'BedroomAbvGr',
+      'BsmtFullBath',
+      'BsmtHalfBath',
+      'EnclosedPorch',
+      'Fireplaces',
+      'FullBath',
+      'GarageArea',
+      'GarageCars',
+      'GrLivArea',
+      'HalfBath',
+      'KitchenAbvGr',
+      'LotArea',
+      'LowQualFinSF',
+      'MiscVal'
+      'OpenPorchSF',
+      'OverallCond',
+      'OverallQual',
+      'PoolArea',
+      'ScreenPorch',
+      'TotalBsmtSF',
+      'TotRmsAbvGrd',
+      'WoodDeckSF',
+      'YearBuilt',
+      'YearRemodAdd',
+      'SalePrice' ==> Target variable
+
+
+    - replace numerical NaNs:
+
+      GarageYrBlt,
+      LotFrontage,
+      MasVnrArea,
+
+  - transform time
+      
+
+Feature Engineering
+  - encode non-numerical
+    - ordered:
+      ExterQual, ExterCond, BsmtCond, BsmtExposure,
+      HeatingQC, CentralAir, KitchenQual, FireplaceQu, GarageFinish,
+      GarageCond, GarageQual, PavedDrive, PoolQC, Fence,
+      MoSold, YrSold, 
+
+    - unordered:
+        MiscFeature, SaleType, SaleCondition
+
+    - all:
+      MSSubClass, MSZoning, Street, Alley, LotShape, LandContour,
+      Utilities, LotConfig, LandSlope, Neighborhood, Condition1,
+      Condition2, BldgType, HouseStyle, RoofStyle, RoofMatl,
+      Exterior1st, Exterior2nd, MasVnrType, Foundation, BsmtQual,
+      BsmtFinType1, BsmtFinSF1, BsmtFinType2, BsmtFinSF2, BsmtUnfSF,
+      Heating, Electrical, Functional, GarageType, 
+      
+  - take roots of all variables representing areas
+
+EDA
+  - does 'take roots of all variables representing areas' make sense
+    for some variable?
+
+
+Models
+  - linear regression
