@@ -18,6 +18,9 @@
 ## Cheat Sheet
 ### To export the environment
 `conda env export --from-history > environment.yml`
+or if positioned in project root, this also works:
+`conda env create`
+
 
 ### To import the environment
 `conda env create --file environment.yml`
