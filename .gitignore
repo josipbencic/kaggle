@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+# JaneStreet competition code and data
+contests/jane-street-market-prediction/janestreet
+contests/jane-street-market-prediction/example_test.csv
+contests/jane-street-market-prediction/example_sample_submission.csv
+contests/jane-street-market-prediction/features.csv
+contests/jane-street-market-prediction/train.csv
+
 # Distribution / packaging
 .Python
 build/
