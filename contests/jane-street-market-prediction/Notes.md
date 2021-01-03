@@ -61,8 +61,10 @@ trade value features
  'ts_id']
 
 
+##### Feature Engineering
 
-
+- add cross effect of (resp x weight) (maybe abs it?)
+- corr matrix of feature_{}s
 
 
 #### Output
