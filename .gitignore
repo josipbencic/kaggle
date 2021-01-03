@@ -12,6 +12,7 @@ contests/jane-street-market-prediction/example_test.csv
 contests/jane-street-market-prediction/example_sample_submission.csv
 contests/jane-street-market-prediction/features.csv
 contests/jane-street-market-prediction/train.csv
+contests/jane-street-market-prediction/train_head.csv
 
 # Distribution / packaging
 .Python
